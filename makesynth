@@ -1,0 +1,5 @@
+#!/bin/sh
+
+GCC=gcc
+
+$GCC -Wall -O2 -s synth.c -o synth -lm -lncursesw -lpthread -lasound
