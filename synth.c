@@ -113,9 +113,9 @@ int main()
 
 	int y0=4;
 
-	mvwaddstr(win,y0,2,"sine");		mvwaddstr(win,y0+1,3,"1");
+	mvwaddstr(win,y0,2,"sine");	mvwaddstr(win,y0+1,3,"1");
 	mvwaddstr(win,y0,8,"triangle");	mvwaddstr(win,y0+1,11,"2");
-	mvwaddstr(win,y0,18,"saw");		mvwaddstr(win,y0+1,19,"3");
+	mvwaddstr(win,y0,18,"saw");	mvwaddstr(win,y0+1,19,"3");
 	mvwaddstr(win,y0,23,"square");	mvwaddstr(win,y0+1,25,"4");
 	mvwaddstr(win,y0,40,"pwidth:");	mvwaddstr(win,y0+1,42,"[ ]");
 	mvwaddstr(win,y0,55,"vol:");	mvwaddstr(win,y0+1,57,"- =");
